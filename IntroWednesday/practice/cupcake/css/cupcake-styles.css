@@ -1,0 +1,18 @@
+h1.fancy{
+  text-align: center;
+  font-family: cursive;
+  font-size: 72px;
+  color: #ff80aa;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #4d0026;
+}
+body{
+  background-color: #ffccff;
+}
+
+p.flashy{
+  text-align: center;
+  font-size: 48px;
+  color: red;
+  font-style: italic;
+}
