@@ -29,21 +29,22 @@ $(document).ready(function() {
       }
 
       else if (csharpOk > cssOk && csharpOk > rubyOk) {
-        $('#csharpImg').show();
-        $('#cssImg').hide();
-        $('#rubyImg').hide();
+        $('.csharpCheck').show();
+        $('.cssCheck').hide();
+        $('.rubyCheck').hide();
       }
 
       else if (cssOk > csharpOk && cssOk > rubyOk) {
-        $('#cssImg').show();
-        $('#csharpImg').hide();
-        $('#rubyImg').hide();
+
+        $('.cssCheck').show();
+        $('.csharpCheck').hide();
+        $('.rubyCheck').hide();
       }
 
       else if (rubyOk > csharpOk && rubyOk > cssOk) {
-        $('#rubyImg').show();
-        $('#cssImg').hide();
-        $('#csharpImg').hide();
+        $('.rubyCheck').show();
+        $('.cssCheck').hide();
+        $('.csharpCheck').hide();
       }
 
 
