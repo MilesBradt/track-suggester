@@ -11,7 +11,7 @@ _Uses basic javascript to pull user information based off questions answered to 
 ## Setup/Installation Requirements
 
 * _Clone repository at: https://github.com/MilesBradt/track-suggester.git_
-* _View webpage on: _
+* _View webpage on: https://milesbradt.github.io/track-suggester/_
 
 ## Known Bugs
 
@@ -31,6 +31,10 @@ _Best way to reach me is my person email via smbradtmichael@gmail.com_
 
 * _Roboto font from: https://fonts.googleapis.com/css?family=Roboto_
 * _Epicodus for descriptions on each programming language: https://www.epicodus.com/blog/what-programming-language-should-i-learn_
+* _CSS logo image from: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/2000px-CSS.3.svg.png_
+* _C# logo image from: https://goo.gl/nZdzuz_
+* _Ruby logo image from: https://goo.gl/dEkiRi_
+
 
 ### License
 
