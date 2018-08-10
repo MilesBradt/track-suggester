@@ -1,7 +1,32 @@
+#input1 {
+  width: 100px;
+}
+
+.form-group {
+  width: 50px;
+}
+
+form {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+
+button {
+background-color: #456D8A;
+}
+
+h3 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
 h1 {
   text-align: center;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
+  color: #C0BCB1;
+  background-color: #444645;
 }

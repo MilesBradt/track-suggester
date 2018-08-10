@@ -24,7 +24,11 @@ $(document).ready(function() {
         csharpOk += 3
       }
 
-      if (csharpOk > cssOk && csharpOk > rubyOk) {
+      if (csharpOk === 0 && cssOk === 0 && rubyOk === 0) {
+        alert("none");
+      }
+
+      else if (csharpOk > cssOk && csharpOk > rubyOk) {
         alert("C#!");
       }
 
