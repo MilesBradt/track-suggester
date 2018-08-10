@@ -1,6 +1,6 @@
 #img-header {
-  height: 25%;
-  width: 25%;
+  height: 35%;
+  width: 35%;
   padding: 20px;
 
   display: flex;
@@ -9,6 +9,31 @@
 
 #input1 {
   width: 100px;
+}
+
+#output {
+  padding-top: 75px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#cssImg {
+  width: 45%;
+  height: 45%;
+  display: none;
+  margin: 0;
+}
+
+#csharpImg {
+  width: 45%;
+  height: 45%;
+  display: none;
+}
+
+#rubyImg {
+  width: 45%;
+  height: 45%;
+  display: none;
 }
 
 .container {

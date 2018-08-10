@@ -25,18 +25,26 @@ $(document).ready(function() {
       }
 
       if (csharpOk === 0 && cssOk === 0 && rubyOk === 0) {
-        alert("none");
+        alert("Not all answers were filled out");
       }
 
       else if (csharpOk > cssOk && csharpOk > rubyOk) {
-        alert("C#!");
+        $('#csharpImg').show();
+        $('#csharpImg').hide()
+        $('#rubyImg').hide();
+
+
       }
 
       else if (cssOk > csharpOk && cssOk > rubyOk) {
-        alert("CSS!");
+        $('#cssImg').show();
+        $('#csharpImg').hide();
+        $('#rubyImg').hide();
       }
 
-      else alert("Ruby!");
+      else $('#rubyImg').show();
+      $('#csharpImg').hide();
+      $('#csharpImg').hide();
 
       console.log(csharpOk);
       console.log(cssOk);
