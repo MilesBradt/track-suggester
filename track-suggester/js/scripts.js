@@ -13,15 +13,15 @@ $(document).ready(function() {
       }
 
       else if (checked1 === "cssYes") {
-        cssOk += 2
+        cssOk += 3
       }
 
       if (checked2 === "rubyYes") {
-        rubyOk ++
+        rubyOk += 2
       }
 
       else if (checked2 === "csharpYes") {
-        csharpOk += 3
+        csharpOk += 2
       }
 
       if (csharpOk === 0 && cssOk === 0 && rubyOk === 0) {
@@ -30,10 +30,8 @@ $(document).ready(function() {
 
       else if (csharpOk > cssOk && csharpOk > rubyOk) {
         $('#csharpImg').show();
-        $('#csharpImg').hide()
+        $('#cssImg').hide();
         $('#rubyImg').hide();
-
-
       }
 
       else if (cssOk > csharpOk && cssOk > rubyOk) {
@@ -42,9 +40,12 @@ $(document).ready(function() {
         $('#rubyImg').hide();
       }
 
-      else $('#rubyImg').show();
-      $('#csharpImg').hide();
-      $('#csharpImg').hide();
+      else if (rubyOk > csharpOk && rubyOk > cssOk) {
+        $('#rubyImg').show();
+        $('#cssImg').hide();
+        $('#csharpImg').hide();
+      }
+
 
       console.log(csharpOk);
       console.log(cssOk);
