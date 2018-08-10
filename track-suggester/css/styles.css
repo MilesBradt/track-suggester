@@ -1,5 +1,23 @@
+#img-header {
+  height: 25%;
+  width: 25%;
+  padding: 20px;
+
+  display: flex;
+  margin: 0 auto;
+}
+
 #input1 {
   width: 100px;
+}
+
+.container {
+  background-color: #5A5B4E;
+  padding-left: 50px;
+}
+
+.jumbotron {
+  background-color: #2D2C29;
 }
 
 .form-group {
@@ -9,11 +27,11 @@
 form {
   padding-top: 75px;
   padding-bottom: 75px;
+  width: 480px;
 }
 
-
 button {
-background-color: #456D8A;
+background-color: #2D2C29;
 }
 
 h3 {
@@ -21,12 +39,22 @@ h3 {
   padding-top: 20px;
 }
 
+h2 {
+text-align: center;
+width: 720px;
+margin: 0 auto;
+
+}
+
 h1 {
   text-align: center;
+  width: 720px;
+  margin: 0 auto;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  color: #C0BCB1;
-  background-color: #444645;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0B070C;
+  color: #DBD7CA;
+
 }
