@@ -31,6 +31,10 @@ _Best way to reach me is my person email via smbradtmichael@gmail.com_
 
 * _Roboto font from: https://fonts.googleapis.com/css?family=Roboto_
 * _Epicodus for descriptions on each programming language: https://www.epicodus.com/blog/what-programming-language-should-i-learn_
+* _CSS logo image from: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/2000px-CSS.3.svg.png_
+* _C# logo image from: https://goo.gl/nZdzuz_
+* _Ruby logo image from: https://goo.gl/dEkiRi_
+
 
 ### License
 
